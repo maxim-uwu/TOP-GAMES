@@ -1,0 +1,71 @@
+/* стили экрана 1 */
+body{
+        color:rgb(164, 0, 0);
+        font-family: 'Sono', sans-serif;
+}
+div{
+    background-color: rgb(170, 140, 255);
+}
+h1{
+    background-color: rgb(170, 140, 255);
+    text-align: center; padding-top: 60px;
+    font-size: 72px;
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+.promo{
+   
+    color: rgb(166, 0, 255);
+    text-align: center;
+    height: 50vh;
+}
+button{
+    background-color: deeppink;
+    color: purple;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
+/* стили об авторе */
+h3{
+    text-align: center;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+   background-color: purple;
+}
+.about-img{
+    width: 150px;
+    float: right;
+    border-radius: 50%;
+}
+.card{
+    display: inline-block;
+    border: lpx solid rgb(68, 114, 141);
+    width: 400px;
+    border-radius: 15px;
+    margin: 30px;
+    position: relative;
+}
+.games-img{
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+.info{
+    display: inline-block;
+    width: 45%;
+
+}
+.pisun{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+}
+.bebra{
+position: fixed;
+}
